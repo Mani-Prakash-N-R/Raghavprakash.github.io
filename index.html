@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!--for fontawesome icons-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+
+        <title>MH</title>
+        <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+        
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo"> MH</a>
+                </div>
+        
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active"><i class="bx bx-home"></i> Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link"><i class="bx bxs-spreadsheet"></i> About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link"><i class="bx bx-book"></i> Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link"><i class="bx bxl-javascript"></i> Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link"><i class="bx bx-phone-outgoing"></i> Contact</a></li>
+                    </ul>
+                </div>
+        
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        
+        
+        <style>/* Remove animation or transitions from all nav__link items */
+           /* Apply animation only to the nav__logo */
+.nav__logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Default color */
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease; /* Apply transition only to the logo */
+}
+
+/* Apply movement animation on hover for the logo */
+.nav__logo:hover {
+    transform: translateX(10px); /* Move the name to the right on hover */
+    color: #3498db; /* Change color to blue */
+    animation: moveLogo 0.5s ease forwards;
+}
+
+/* Define keyframes for movement animation */
+@keyframes moveLogo {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(10px); /* Move the name to the right */
+    }
+}
+
+/* Optional: Style for active link */
+.nav__link.active {
+    color: #3498db;
+}
+
+/* Remove any animation from other navigation links */
+.nav__link {
+    color: #128ed5;
+    text-decoration: none;
+    padding: 10px;
+    transition: none;
+}
+
+           </style>
+        
+        
+        
+        
+        
+        <main class="l-main">
+
+
+            <!--===== HOME =====-->
+            <section id="home" style="margin-top: 100px;">
+                <div style="max-width: 850px; margin: 0 auto; text-align: center;">
+                    <!-- Main Heading -->
+                    <h1 style="font-size: 3rem; color: #333; font-weight: 700; line-height: 1.3;">
+                        <br>Hi, I am <span style="color: #4070F4;">Mani Prakash N R</span>,<br>A Software Developer
+                    </h1>
+                
+                    <!-- Subtitle -->
+                    <p style="font-size: 1.4rem; color: #666; margin: 20px 0; max-width: 720px; margin-left: auto; margin-right: auto; line-height: 1.6;">
+                        Passionate about solving real-world problems through code and continuously evolving in the tech landscape.
+                    </p>
+                
+                    <!-- Let's Connect Button -->
+                    <a href="https://www.linkedin.com/in/mani-prakash-n-r" target="_blank" 
+                       style="display: inline-flex; align-items: center; justify-content: center; padding: 15px 30px; font-size: 1.2rem; background-color: #4070F4; color: white; text-decoration: none; border-radius: 50px; box-shadow: 0 6px 15px rgba(64, 112, 244, 0.4); transition: all 0.3s ease; margin-top: 30px;">
+                        Let's Connect
+                    </a>
+                </div>
+                
+                <!-- Social Media Icons Section -->
+                <div style="display: flex; justify-content: center; gap: 25px; margin-top: 45px; flex-wrap: wrap; padding: 0 15px;">
+                    <!-- GitHub Icon -->
+                    <a href="https://github.com/Mani-Prakash-N-R" target="_blank" 
+                       style="display: inline-block; transition: transform 0.3s ease, filter 0.3s ease;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="GitHub" style="width: 40px; filter: grayscale(100%); transition: transform 0.3s ease, filter 0.3s ease;">
+                    </a>
+                
+                    <!-- LinkedIn Icon -->
+                    <a href="https://www.linkedin.com/in/mani-prakash-n-r" target="_blank" 
+                       style="display: inline-block; transition: transform 0.3s ease, filter 0.3s ease;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width: 40px; filter: grayscale(100%); transition: transform 0.3s ease, filter 0.3s ease;">
+                    </a>
+                
+                    <!-- Medium Icon -->
+                    <!-- <a href="https://medium.com/" target="_blank" 
+                       style="display: inline-block; transition: transform 0.3s ease, filter 0.3s ease;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111628.png" alt="Medium" style="width: 40px; filter: grayscale(100%); transition: transform 0.3s ease, filter 0.3s ease;">
+                    </a> -->
+                </div>
+            </section>
+            
+            
+       
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about" style="margin-top: 50px;">
+                <h2 class="section-title" style="font-size: 2rem; color: #3056D3; text-align: center; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px;">
+                    About Me
+                </h2>
+            
+                <div class="about__container" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; text-align: left; padding: 30px; gap: 30px;">
+                    <!-- Large Hexagon with Person Icon -->
+                    <div class="about__icon-container" style="flex: 1; max-width: 180px; margin: 10px; text-align: center; animation: fadeInUp 1s ease;">
+                        <div class="hexagon-container">
+                            <i class="fa fa-user" style="color: white; font-size: 100px; line-height: 200px;"></i>
+                        </div>
+                    </div>
+            
+                    <!-- Text container -->
+                    <div class="about__text-container" style="flex: 3; max-width: 800px; margin: 10px; padding-left: 20px; text-align: justify; animation: fadeInUp 1.2s ease;">
+                        <p class="about__text" style="font-size: 1.2rem; line-height: 1.5; color: #444;">
+                            <span class="intro-text">I am Mani Prakash N R</span>
+                            <br><br>
+                            I am a <strong>full-stack developer</strong> proficient in the <span style="color:#3763f5; font-weight: 600;">MEAN</span> stack, dedicated to crafting innovative solutions that simplify complex challenges.
+                            <br><br>
+                            My expertise lies in <span style="color:#4431eb; font-weight: 600;">data visualization</span>, using tools like <span style="color:#3056D3;">Power BI</span> to transform raw data into compelling, interactive dashboards.
+                            <br><br>
+                            With a passion for blending technology and creativity, I strive to deliver seamless user experiences that address real-world needs.
+                        </p>
+                        <div style="margin-top: 20px; text-align: center;">
+                            <a href="#contact" style="padding: 16px 32px; font-size: 1.1rem; color: white; background-color: #335fef; border-radius: 8px; text-decoration: none; box-shadow: 0 8px 20px rgba(48, 86, 211, 0.3); transition: transform 0.3s ease;">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- External Link to FontAwesome CDN (for person icon) -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+            
+            <!-- CSS for the Hexagon and Animation -->
+            <style>
+            /* CSS for the Hexagon and Animation */
+            .hexagon-container {
+                width: 200px;
+                height: 200px;
+                background-color: #3056D3;
+                clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 15px auto;
+                transition: transform 0.3s ease, opacity 0.3s ease;
+            }
+            
+            /* Hover effect to shrink and reduce opacity */
+            .hexagon-container:hover {
+                transform: scale(0.8); /* Shrink to 80% of original size */
+                opacity: 0.5; /* Reduce opacity */
+            }
+            
+            .fa-user {
+                color: white;
+                font-size: 100px;
+                line-height: 200px;
+            }
+            
+            .about__container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 30px;
+                gap: 30px;
+            }
+            
+            .about__text-container {
+                flex: 3;
+                max-width: 800px;
+                margin: 10px;
+                padding-left: 20px;
+            }
+            
+            .section-title {
+                font-size: 3rem;
+                color: #3056D3;
+                text-align: center;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            
+            .about__text {
+                font-size: 1.2rem;
+                line-height: 1.5;
+                color: #444;
+            }
+            
+            .intro-text {
+                display: inline-block;
+                font-size: 3rem;
+                font-weight: bold;
+                color: #0e3cf3a6; /* Light shiny blue color */
+            }
+            
+            /* Fade-in animation */
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.05);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
+            
+            a:hover {
+                transform: translateY(-5px);
+            }
+            
+            /* Responsive Design for Mobile and Tablet */
+            @media (max-width: 768px) {
+                .about__container {
+                    flex-direction: column;
+                    gap: 20px;
+                }
+            
+                .section-title {
+                    margin-top: 70px;
+                    font-size: 2rem;
+                }
+            
+                .hexagon-container {
+                    width: 150px;
+                    height: 150px;
+                    margin: 10px auto;
+                }
+            
+                .fa-user {
+                    font-size: 80px;
+                }
+            
+                .about__text-container {
+                    padding-left: 10px;
+                }
+            }
+            
+            @media (max-width: 480px) {
+                .about__container {
+                    flex-direction: column;
+                    gap: 20px;
+                }
+            
+                .hexagon-container {
+                    width: 130px;
+                    height: 130px;
+                    margin: 10px auto;
+                }
+            
+                .fa-user {
+                    font-size: 60px;
+                }
+            
+                .about__text-container {
+                    padding-left: 10px;
+                }
+            
+                .section-title {
+                    font-size: 1.5rem;
+                }
+            }
+            </style>
+            
+
+            
+            
+            
+            
+            
+            
+<!--===== SKILLS =====-->
+<section class="skills section" id="skills">
+    <h2 class="section-title" style="font-size: 2rem; color: #3056D3; text-align: center; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px;">Skills</h2>
+
+    <div class="skills__container bd-grid">
+        <!-- Skill 1: Python -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python"> <!-- Python Icon -->
+            </div>
+            <span class="skill__name">Python</span>
+        </div>
+        <!-- Skill 2: Flask -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/flask.png" alt="Flask"> <!-- Flask Icon -->
+            </div>
+            <span class="skill__name">Flask</span>
+        </div>
+        <!-- Skill 3: Angular -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/angularjs.png" alt="Angular"> <!-- Angular Icon -->
+            </div>
+            <span class="skill__name">Angular</span>
+        </div>
+        <!-- Skill 4: HTML -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML"> <!-- HTML Icon -->
+            </div>
+            <span class="skill__name">HTML</span>
+        </div>
+        <!-- Skill 5: CSS -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS"> <!-- CSS Icon -->
+            </div>
+            <span class="skill__name">CSS</span>
+        </div>
+        <!-- Skill 6: XML -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/xml.png" alt="XML"> <!-- XML Icon -->
+            </div>
+            <span class="skill__name">XML</span>
+        </div>
+        <!-- Skill 7: Power BI -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI"> <!-- Power BI Icon -->
+            </div>
+            <span class="skill__name">Power BI</span>
+        </div>
+        <!-- Skill 8: Google Colab -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/google-colab.png" alt="Google Colab"> <!-- Google Colab Icon -->
+            </div>
+            <span class="skill__name">Google Colab</span>
+        </div>
+        <!-- Skill 9: C -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/c-programming.png" alt="C"> <!-- C Icon -->
+            </div>
+            <span class="skill__name">C</span>
+        </div>
+        <!-- Skill 10: JavaScript -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"> <!-- JavaScript Icon -->
+            </div>
+            <span class="skill__name">JavaScript</span>
+        </div>
+        <!-- Skill 11: C++ -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="C++"> <!-- C++ Icon -->
+            </div>
+            <span class="skill__name">C++</span>
+        </div>
+        <!-- Skill 12: React -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React"> <!-- React Icon -->
+            </div>
+            <span class="skill__name">React</span>
+        </div>
+        <!-- Skill 13: Node.js -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js"> <!-- Node.js Icon -->
+            </div>
+            <span class="skill__name">Node.js</span>
+        </div>
+        <!-- Skill 14: MongoDB -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB"> <!-- MongoDB Icon -->
+            </div>
+            <span class="skill__name">MongoDB</span>
+        </div>
+        <!-- Skill 15: MySQL -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL"> <!-- MySQL Icon -->
+            </div>
+            <span class="skill__name">MySQL</span>
+        </div>
+        <!-- Skill 16: Git -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git"> <!-- Git Icon -->
+            </div>
+            <span class="skill__name">Git</span>
+        </div>
+        <!-- Skill 17: PHP -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/php.png" alt="PHP"> <!-- PHP Icon -->
+            </div>
+            <span class="skill__name">PHP</span>
+        </div>
+        <!-- Skill 18: Express.js -->
+        <div class="skill__box">
+            <div class="skill__icon">
+                <img src="https://img.icons8.com/color/48/000000/express-js.png" alt="Express.js"> <!-- Express.js Icon -->
+            </div>
+            <span class="skill__name">Express.js</span>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+    }
+  
+    /* Skills Section Title */
+    .section-title {
+        font-size: 2.6rem;
+        color: #4070F4;
+        text-align: center;
+        margin-bottom: 40px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+  
+    /* Skills Container */
+    .skills__container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr); /* 6 skills per row for desktop */
+        gap: 20px;
+        justify-content: center;
+        margin-top: 40px;
+        padding: 0 10%;
+    }
+  
+    /* Skill Box (Rounded Edges) */
+    .skill__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;  /* Smooth rounded corners */
+        height: 180px;
+        width: 150px;
+        margin: 0 auto;
+        text-align: center;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease; /* Reduced transition time for smoother animation */
+    }
+  
+    .skill__icon img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+        margin-bottom: 15px;  /* Added space between icon and name */
+    }
+  
+    .skill__name {
+        font-size: 1.05rem;
+        color: #333;
+        text-align: center;
+        font-weight: bold;
+    }
+  
+    /* Hover Effects for Box */
+    .skill__box:hover {
+        transform: translateY(-8px);  /* Slight movement for better experience */
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        background-color: #5f9bf0ae; /* Very light blue color on hover */
+    }
+  
+    /* Active (Tap/Click) Effects for Box */
+    .skill__box:active {
+        background-color: #6290d8; /* Light blue on tap/click */
+    }
+  
+    /* Animation When Section Comes Into View */
+    @keyframes fadeInSkills {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+  
+    .skills__container {
+        animation: fadeInSkills 0.4s ease-out; /* Shorter animation duration for smoother transition */
+    }
+  
+    /* Responsive Styles */
+    @media (max-width: 1024px) {
+        .skills__container {
+            grid-template-columns: repeat(4, 1fr); /* 4 items per row for tablets */
+            padding: 0 5%;
+        }
+    }
+  
+    @media (max-width: 768px) {
+        .skills__container {
+            grid-template-columns: repeat(3, 1fr); /* 3 items per row for smaller devices */
+            padding: 0 5%;
+        }
+    }
+  
+    @media (max-width: 480px) {
+        .skills__container {
+            grid-template-columns: repeat(2, 1fr); /* 2 items per row for very small devices */
+            padding: 0 10px;
+        }
+    }
+</style>
+
+
+  
+
+
+
+
+
+
+
+             <!--===== ABOUT section formatting for projects =====-->
+             <section class="about section" id="work">
+                <h2 class="section-title"  style="font-size: 2rem; color: #3056D3; text-align: center; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px;">Projects</h2>
+            
+                <div class="about__container bd-grid">
+                    <!-- Project 1: Emotion-Based Content Recommendation System -->
+                    <div class="about__box">
+                        <div class="about__img">
+                            <img src="assets/img/project1.png" alt="Emotion-Based Content Recommendation">
+                            <h2 class="about__subtitle">Emotion-Based Content Recommendation System</h2>
+                        </div>
+                        <div class="about__content">
+                            <p class="about__text">
+                                This project leverages advanced machine learning algorithms to create an emotion-based content recommendation system. By analyzing user emotions—either through facial expressions or textual sentiment analysis—the system is able to suggest personalized content that aligns with the user’s current emotional state. Using Python, Flask, and Natural Language Processing (NLP) techniques, this system ensures that the content recommendations are contextually relevant, enhancing user engagement and experience. It is designed for applications in entertainment, mental health, and personalized content delivery.
+                            </p>
+                            <a href="https://github.com/Mani-Prakash-N-R/Emotion_Based_Music_and_Video_Recommendation_System" target="_blank" class="home__social-icon">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                    </div>
+            
+                    <!-- Project 2: Dynamic Inventory Tracking System Using Node.js and Angular -->
+                    <div class="about__box">
+                        <div class="about__img">
+                            <img src="assets/img/project7.png" alt="Inventory Tracking System">
+                            <h2 class="about__subtitle">Dynamic Inventory Tracking System Using Node.js and Angular</h2>
+                        </div>
+                        <div class="about__content">
+                            <p class="about__text">
+                                This project implements a robust dynamic inventory tracking system designed to optimize the management of inventory and stock across businesses. Built using Node.js for the backend and Angular for the frontend, this system enables real-time updates, data synchronization, and efficient reporting. It automates tasks such as stock level monitoring, product ordering, and inventory categorization, providing business owners with actionable insights to improve operations. The system's user-friendly interface ensures ease of use, while its backend architecture supports scalability and high-performance requirements for larger operations.
+                            </p>
+                            <a href="https://github.com/Mani-Prakash-N-R/Dynamic_Inventory_Tracking_System-WEB_DEVELOPMENT-" target="_blank" class="home__social-icon">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="about__container bd-grid">
+                    <!-- Project 3: Stock Market Prediction Using LSTM -->
+                    <div class="about__box">
+                        <div class="about__img">
+                            <img src="assets/img/project2.jpg" alt="Stock Market Prediction">
+                            <h2 class="about__subtitle">Stock Market Prediction Using LSTM</h2>
+                        </div>
+                        <div class="about__content">
+                            <p class="about__text">
+                                This project utilizes Long Short-Term Memory (LSTM) networks, a type of deep learning model, to predict stock market trends and prices. By analyzing historical stock data, including opening/closing prices, volume, and other indicators, the LSTM model is able to predict future market movements with high accuracy. The system is built using Python and Keras, and it serves as a tool for investors to make informed decisions. By capturing complex patterns in financial time series data, it helps forecast short-term and long-term price fluctuations, which can be crucial for maximizing profit or mitigating risks in the stock market.
+                            </p>
+                            <a href="https://github.com/Mani-Prakash-N-R/Stock_Market_Prediction_System" target="_blank" class="home__social-icon">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                    </div>
+            
+                    <!-- Project 4: Financial Analysis Using Power BI -->
+                    <div class="about__box">
+                        <div class="about__img">
+                            <img src="assets/img/project -8.png" alt="Financial Analysis Using Power BI">
+                            <h2 class="about__subtitle">Financial Analysis Dashboard Using Power BI</h2>
+                        </div>
+                        <div class="about__content">
+                            <p class="about__text">
+                                This project demonstrates a comprehensive financial analysis dashboard using Power BI, an advanced business analytics tool. The dashboard aggregates and visualizes key financial metrics such as revenue, expenses, profit margins offering businesses a clear and intuitive way to monitor their financial performance. By connecting multiple data sources, the dashboard provides real-time insights into financial operations, allowing users to track trends, identify potential issues, and make data-driven decisions that align with business goals. Power BI's interactive featuresenable businesses to explore financial data in-depth.
+                            </p>
+                            <a href="https://github.com/Mani-Prakash-N-R/Financial_Analysis_Using_Power_BI" target="_blank" class="home__social-icon">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Show More Button -->
+                <div class="show-more-container">
+                    <a href="https://github.com/Mani-Prakash-N-R" target="_blank" class="show-more-btn">Show More Projects</a>
+                </div>
+            </section>
+            
+            
+            
+            <style>
+ /* Section Title */
+.section-title {
+    font-size: 2.6rem;
+    color: #4070F4;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* About Section Grid */
+.about__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: stretch; /* Ensure all items stretch to fill their containers */
+    margin-bottom: 40px;
+}
+
+/* About Box */
+.about__box {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: auto; /* Allow the height to adjust based on content */
+    box-sizing: border-box; /* Include padding and border in total height calculation */
+}
+
+.about__box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Styling */
+.about__img {
+    position: relative;
+    height: 250px; /* Fixed height for the image */
+    overflow: hidden;
+}
+
+.about__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the top half fully */
+    transition: transform 0.3s ease;
+}
+
+.about__img img:hover {
+    transform: scale(1.05);
+}
+
+/* Project Title on Image */
+.about__subtitle {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 1.8rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Content Box */
+.about__content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1; /* Allow content to take up remaining space */
+    box-sizing: border-box; /* Ensure padding is included in height calculation */
+}
+
+.about__text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px; /* Add margin to separate the text from the social icon */
+}
+
+/* Social Icon */
+.home__social-icon {
+    color: #4070F4;
+    font-size: 1.8rem;
+    transition: transform 0.3s ease;
+}
+
+.home__social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Show More Button */
+.show-more-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.show-more-btn {
+    background-color: #4070F4;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.show-more-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Animation */
+@keyframes fadeInProjects {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about__box {
+    animation: fadeInProjects 0.8s ease-out;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 1fr;
+    }
+
+    .about__box {
+        margin-bottom: 20px;
+    }
+}
+
+            </style>
+            
+
+
+            <section class="about section" id="contact">
+                <h1 class="section-title">Contact me</h1>
+                <div class="about__container bd-grid">
+                    <div class="formbold-main-wrapper">
+                        <div class="formbold-form-wrapper"> 
+                            <p class="about__text">
+                                Thank you for taking the time to explore my portfolio. I'm always excited to connect with new people and explore potential opportunities.
+                                <br><br>
+                                I am actively seeking new career opportunities in software development, including both internship and full-time positions. Whether you have a job opportunity, project, or just want to chat, feel free to reach out! I’d love to connect.
+                                <br><br>
+                                Please don’t hesitate to contact me directly using the form below or via email.
+                                <br><br>
+                            </p>
+                        </div>   
+                    </div>
+            
+                    <!-- Contact Form -->
+                    <div class="formbold-form-wrapper">
+                        <h1 class="contact-heading">Let's Connect</h1>
+                        <br>
+                        <p class="about__text">Feel free to reach out if you have any other questions or need more information.</p>
+                        <br>
+                        <form action="https://formspree.io/f/xblljabj" method="POST">
+                            <div class="formbold-mb-5">
+                                <label for="name" class="formbold-form-label">Full Name</label>
+                                <div class="input-wrapper">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        placeholder="Regina Phalange"
+                                        class="formbold-form-input"
+                                    />
+                                    <i class="bx bx-user"></i>
+                                </div>
+                            </div>
+            
+                            <div class="formbold-mb-5">
+                                <label for="email" class="formbold-form-label">Email Address</label>
+                                <div class="input-wrapper">
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        placeholder="regina@centralperk.com"
+                                        class="formbold-form-input"
+                                    />
+                                    <i class="bx bx-envelope"></i>
+                                </div>
+                            </div>
+            
+                            <div class="formbold-mb-5">
+                                <label for="message" class="formbold-form-label">Message</label>
+                                <div class="input-wrapper">
+                                    <textarea 
+                                        name="message"
+                                        id="message"
+                                        placeholder="Write your message here"
+                                        class="form--mssg"
+                                        rows="6"
+                                        cols="50"
+                                    ></textarea>
+                                    <i class="bx bx-message-square"></i>
+                                </div>
+                            </div>
+            
+                            <div class="formbold-btn-wrapper">
+                                <button class="formbold-btn"><i class="bx bxl-telegram"></i> Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>   
+            </section>
+            
+            <style>
+            /* General Styling */
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            
+            /* Section Title */
+            .section-title {
+                font-size: 2.5rem;
+                color: #4070F4;
+                text-align: center;
+                margin-bottom: 40px;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+            
+            /* About Section Container */
+            .about__container {
+                display: grid;
+                grid-template-columns: 1fr 1fr; /* Two columns for larger screens */
+                gap: 30px;
+                justify-content: center;
+                padding: 0 5%;
+                margin-top: 40px;
+            }
+            
+            /* Form Text */
+            .about__text {
+                font-size: 1rem;
+                color: #555;
+                line-height: 1.6;
+            }
+            
+            /* Form Wrapper */
+            .formbold-main-wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                background-color: #fff;
+                padding: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+            }
+            
+            .formbold-form-wrapper {
+                margin-bottom: 30px;
+            }
+            
+            /* Contact Form Heading */
+            .contact-heading {
+                font-size: 2rem;
+                color: #4070F4;
+                font-weight: bold;
+                text-align: left;
+            }
+            
+            /* Input Wrappers */
+            .input-wrapper {
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            
+            .formbold-form-label {
+                font-size: 1rem;
+                color: #333;
+                margin-bottom: 10px;
+            }
+            
+            /* Input Fields */
+            .formbold-form-input,
+            .form--mssg {
+                width: 100%;
+                padding-left: 40px; /* Added padding to avoid overlap */
+                padding-right: 12px; /* Ensure right padding */
+                font-size: 1rem;
+                border-radius: 8px;
+                border: 1px solid #ddd;
+                outline: none;
+                transition: border 0.3s ease, box-shadow 0.3s ease;
+            }
+            
+            .formbold-form-input:focus,
+            .form--mssg:focus {
+                border-color: #4070F4;
+                box-shadow: 0 0 10px rgba(64, 112, 244, 0.3);
+            }
+            
+            /* Input Icons */
+            .input-wrapper i {
+                position: absolute;
+                left: 12px;
+                font-size: 1.2rem;
+                color: #aaa;
+            }
+            
+            /* Message Textarea Icon */
+            .form--mssg {
+                padding-left: 40px; /* Ensure space for the icon */
+            }
+            
+            /* Button */
+            .formbold-btn-wrapper {
+                text-align: center;
+            }
+            
+            .formbold-btn {
+                background-color: #4070F4;
+                color: white;
+                font-size: 1.1rem;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.3s ease;
+            }
+            
+            .formbold-btn:hover {
+                background-color: #3056D3;
+                transform: scale(1.05);
+            }
+            
+            /* Media Queries for Responsive Design */
+            @media (max-width: 1024px) {
+                .about__container {
+                    grid-template-columns: 1fr; /* Single column on tablets */
+                    padding: 0 10%;
+                }
+            
+                .formbold-main-wrapper {
+                    padding: 15px;
+                }
+            }
+            
+            @media (max-width: 768px) {
+                .section-title {
+                    font-size: 2rem;
+                }
+            
+                .about__container {
+                    grid-template-columns: 1fr; /* Stack form on smaller devices */
+                    padding: 0 5%;
+                }
+            
+                .formbold-main-wrapper {
+                    padding: 10px;
+                }
+            
+                .formbold-form-input,
+                .form--mssg {
+                    font-size: 0.95rem;
+                    padding: 12px 20px 12px 40px; /* Added more padding to prevent overlap */
+                }
+            
+                .input-wrapper i {
+                    font-size: 1rem; /* Reduce icon size for small screens */
+                    left: 10px; /* Adjust the position of the icon */
+                }
+            }
+            
+            @media (max-width: 480px) {
+                .section-title {
+                    font-size: 1.5rem;
+                }
+            
+                .formbold-btn {
+                    font-size: 1rem;
+                    padding: 8px 16px;
+                }
+            
+                .formbold-form-input,
+                .form--mssg {
+                    font-size: 0.9rem;
+                    padding: 10px 15px 10px 35px; /* Ensure padding is sufficient for the icon */
+                }
+            
+                .input-wrapper i {
+                    font-size: 1rem; /* Keep the icon size small */
+                    left: 8px; /* Adjust position further */
+                }
+            }
+            </style>
+            
+            
+                           
+    
+            
+
+            
+            <!--===== WORK =====-->
+  <!--           <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+ -->
+ <br/><br/><br/>
+        <!--===== FOOTER =====-->
+
+
+        <footer class="footer">
+            
+            <div class="footer__social--parent about__container bd-grid">
+                <div class="footer__social"><p>© Prakash 2025. All rights reserved.</p>
+                </div>
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/mani-prakash-n-r/" class="footer__icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Mani-Prakash-N-R" class="footer__icon" target="_blank"><i class='bx bxl-github'></i></a>
+                    <!-- <a href="https://www.medium.com/" class="footer__icon" target="_blank"><i class='bx bxl-medium'></i></a> -->
+                    <!-- <a href="https://www.instagram.com/" class="footer__icon" target="_blank"><i class='bx bxl-instagram'></i></a> -->
+                </div>
+                <br>
+            </div>
+            
+
+        
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
